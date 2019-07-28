@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SEMAFOROS</title>
+<style>
+body{
+    display: flex;
+    background-color: #CED0EF;
+}
+
+.s1{
+    border-radius: 15%;
+    border: 5px slategrey solid;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-top:5%;
+    width: 175px;
+    height: 380px;
+    background-color:black;
+}
+
+#rojo_s1 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px; 
+    margin-bottom: 10px;
+}
+
+#amarillo_s1 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px;
+    margin-bottom: 10px;
+}
+
+#verde_s1 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px;
+    margin-bottom: 20px;
+}
+
+#peaton_s1 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px;
+}
+
+.s2{
+    border: 5px slategrey solid;
+    border-radius: 15%;
+    padding-top: 20px;
+    margin-left: 7%;
+    margin-top:5%;
+    width: 175px;
+    height: 380px;
+    background-color:black;
+}
+
+#rojo_s2 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px; 
+    margin-bottom: 10px;
+}
+
+#amarillo_s2 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px;
+    margin-bottom: 10px;
+}
+
+#verde_s2 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px;
+    margin-bottom: 20px;
+}
+
+#peaton_s2 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px;
+}
+
+.s3{
+    border: 5px slategrey solid;
+    border-radius: 15%;
+    padding-top: 20px;
+    margin-left: 7%;
+    margin-top:5%;
+    width: 175px;
+    height: 380px;
+    background-color:black;
+}
+
+#rojo_s3 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px; 
+    margin-bottom: 10px;
+}
+
+#amarillo_s3 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px;
+    margin-bottom: 10px;
+}
+
+#verde_s3 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px;
+    margin-bottom: 20px;
+}
+
+#peaton_s3 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px;
+}
+
+.s4{
+    border: 5px slategrey solid;
+    border-radius: 15%;
+    padding-top: 20px;
+    margin-left: 7%;
+    margin-top:5%;
+    width: 175px;
+    height: 380px;
+    background-color:black;
+}
+
+#rojo_s4 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px; 
+    margin-bottom: 10px;
+}
+
+#amarillo_s4 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px;
+    margin-bottom: 10px;
+}
+
+#verde_s4 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px;
+    margin-bottom: 20px;
+}
+
+#peaton_s4 {
+    border: 2px #766D6B solid;
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius:50%;
+    margin-left:50px;
+}
+    </style>
+</head>
+
+<body>
+    <div class="s1">
+        <div class="rojo" id="rojo_s1"></div>
+        <div class="amarillo" id="amarillo_s1"></div>
+        <div class="verde" id="verde_s1"></div>
+        <div class="peaton" id="peaton_s1"></div>
+    </div>
+
+    <div class="s2">
+        <div class="rojo" id="rojo_s2"></div>
+        <div class="amarillo" id="amarillo_s2"></div>
+        <div class="verde" id="verde_s2"></div>
+        <div class="peaton" id="peaton_s2"></div>
+    </div>
+
+    <div class="s3">
+        <div class="rojo" id="rojo_s3"></div>
+        <div class="amarillo" id="amarillo_s3"></div>
+        <div class="verde" id="verde_s3"></div>
+        <div class="peaton" id="peaton_s3"></div>
+    </div>
+
+    <div class="s4">
+        <div class="rojo" id="rojo_s4"></div>
+        <div class="amarillo" id="amarillo_s4"></div>
+        <div class="verde" id="verde_s4"></div>
+        <div class="peaton" id="peaton_s4"></div>
+    </div>
+</body>
+</html>
