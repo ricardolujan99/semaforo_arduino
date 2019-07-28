@@ -1,3 +1,11 @@
+/*
+
+Esto no funciona, hay que revisar el manejo de la matriz y lograr un retardo en el en el bucle for
+
+*/
+
+
+
 var five = require("johnny-five");
 var board = new five.Board();
 
